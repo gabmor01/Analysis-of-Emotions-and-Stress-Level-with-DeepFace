@@ -1,0 +1,76 @@
+TOTAL ANALYSIS DA SCREMARE
+
+Happy: 5812 elementi, 1057 not detected, 1047 wrong emotion error
+Neutral: 3271 elementi, 751 not detected, 870 wrong emotion error
+Surprise: 1613 elementi, 452 not detected, 900 wrong emotion error
+Fear: 370 elementi, 143 not detected, 218 wrong emotion error
+Disgust: 847 elementi, 128 not detected, 713 wrong emotion error
+Sad: 2518 elementi, 717 not detected, 1282 wrong emotion error
+Angry: 902 elementi, 274 not detected, 322 wrong emotion error
+
+Totale: 15333 elementi, 3522 not detected 22,97%, 5352 wrong emotion error 45,31%
+
+Accuracy: 0.55
+Precision: 0.58
+Recall: 0.55
+F1-Score: 0.53
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.25      0.49      0.33       632
+     disgust       0.21      0.01      0.02       720
+        fear       0.05      0.14      0.08       254
+       happy       0.78      0.78      0.78      4760
+     neutral       0.46      0.66      0.54      2535
+         sad       0.41      0.29      0.34      1805
+    surprise       0.82      0.19      0.30      1105
+
+    accuracy                           0.55     11811
+   macro avg       0.43      0.36      0.34     11811
+weighted avg       0.58      0.55      0.53     11811
+
+ENFORCED ANALYSIS NOT DETECTED DEFINITIVE
+
+Happy: 1057 elementi, 261 wrong emotion error
+Neutral: 751 elementi, 393 wrong emotion error
+Surprise: 452 elementi, 350 wrong emotion error
+Fear: 143 elementi, 83 wrong emotion error
+Disgust: 128 elementi, 116 wrong emotion error
+Sad: 717 elementi, 375 wrong emotion error
+Angry: 274 elementi, 170 wrong emotion error
+
+Totale: 3522 elementi, 1748 wrong emotion error 49,63%
+
+Accuracy: 0.50
+Precision: 0.56
+Recall: 0.50
+F1-Score: 0.50
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.30      0.38      0.33       274
+     disgust       0.40      0.09      0.15       128
+        fear       0.15      0.43      0.22       143
+       happy       0.62      0.75      0.68      1057
+     neutral       0.60      0.48      0.53       751
+         sad       0.47      0.48      0.47       717
+    surprise       0.79      0.23      0.36       452
+
+    accuracy                           0.50      3522
+   macro avg       0.48      0.41      0.39      3522
+weighted avg       0.56      0.50      0.50      3522
+
+TOTAL ENFORCED ANALYSIS
+
+Happy: 5812 elementi, 1308 wrong emotion error
+Neutral: 3271 elementi, 1263 wrong emotion error
+Surprise: 1613 elementi, 1250 wrong emotion error
+Fear: 370 elementi, 301 wrong emotion error
+Disgust: 847 elementi, 829 wrong emotion error
+Sad: 2518 elementi, 1696 wrong emotion error
+Angry: 902 elementi, 492 wrong emotion error
+
+Totale: 15333 elementi, 7139 wrong emotion error 46,56%
+
