@@ -5,6 +5,7 @@ An indicator is developed to classify stress into three levels (low, medium, and
 Results show that while DeepFace performs well on certain emotions, it struggles with similar emotional states, impacting stress classification accuracy. Despite these limitations, the method demonstrates potential for stress monitoring in real-world applications, such as detecting fatigue or risky behavior. Future improvements include dataset optimization and integration with more advanced emotion recognition models.
 
 
+
 Project structure
 
 codes/ → Contains the codes used for the analysis: 
