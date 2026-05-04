@@ -6,6 +6,7 @@ Results show that while DeepFace performs well on certain emotions, it struggles
 
 
 Project structure
+
 codes/ → Contains the codes used for the analysis: 
   - reading.py → checks that the dataset to be analyzed is complete and well-structured
   - testing_entire_dataset.py → runs the complete analysis of the chosen dataset and produces the stress results
