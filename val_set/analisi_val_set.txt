@@ -1,0 +1,84 @@
+TOTAL ANALYSIS
+
+Happy: 552 elementi, 36 not detected, 78 wrong emotion error 13,68%
+Neutral: 850 elementi, 48 not detected, 154 wrong emotion error 19,20%
+Surprise: 374 elementi, 25 not detected, 219 wrong emotion error 62,75%
+Fear: 456 elementi, 27 not detected, 259 wrong emotion error 60,37%
+Disgust: 361 elementi, 13 not detected, 325 wrong emotion error 93,39%
+Sad: 456 elementi, 29 not detected, 205 wrong emotion error 48,01%
+Angry: 432 elementi, 21 not detected, 202 wrong emotion error 49,15%
+
+Totale: 3499 elementi, 199 not detected 5,71%, 1442 wrong emotion error 43,7%
+
+Accuracy: 0.56
+Precision: 0.59
+Recall: 0.56
+F1-Score: 0.53
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.52      0.51      0.51       411
+     disgust       0.77      0.07      0.12       348
+        fear       0.43      0.40      0.42       429
+       happy       0.70      0.85      0.77       570
+     neutral       0.60      0.81      0.69       802
+         sad       0.38      0.52      0.44       427
+    surprise       0.75      0.37      0.50       349
+
+    accuracy                           0.56      3300
+   macro avg       0.59      0.50      0.49      3300
+weighted avg       0.59      0.56      0.53      3300
+
+ENFORCED ANALYSIS NOT DETECTED
+
+Happy: 36 elementi, 7 wrong emotion error
+       10 foto occlusa, 1 occhiali, 4 volto non rivolto frontalmente, 1 scarsa illuminazione
+Neutral: 48 elementi, 8 wrong emotion error
+	 9 foto occlusa, 3 occhiali, 1 bassa qualità d'immagine, 9 volto non rivolto frontalmente, 1 scarsa illuminazione
+Surprise: 25 elementi, 16 wrong emotion error
+	  3 foto occlusa, 1 occhiali, 2 scarsa illuminazione, 4 volto non rivolto frontalmente
+Fear: 27 elementi, 18 wrong emotion error
+      5 foto occlusa, 4 sovra illuminazione, 1 scarsa illuminazione, 1 bassa qualità d'immagine, 2 volto non rivolto frontalmente
+Disgust: 13 elementi, 13 wrong emotion error
+	 7 foto occlusa, 1 sovra illuminazione, 4 volto non rivolto frontalmente
+Sad: 29 elementi, 12 wrong emotion error
+     7 foto occlusa, 3 scarsa illuminazione, 3 volto non rivolto frontalmente
+Angry: 21 elementi, 9 wrong emotion error
+       2 occhiali, 3 scarsa illuminazione, 4 sovra illuminazione, 3 volto non rivolto frontalmente
+
+Totale: 199 elementi, 83 wrong emotion error 41,21%
+
+Accuracy: 0.59
+Precision: 0.54
+Recall: 0.59
+F1-Score: 0.56
+
+Classification Report:
+	      precision    recall  f1-score   support
+
+       angry       0.50      0.57      0.53        21
+     disgust       0.00      0.00      0.00        13
+        fear       0.45      0.33      0.38        27
+       happy       0.64      0.81      0.72        36
+     neutral       0.68      0.83      0.75        48
+         sad       0.52      0.59      0.55        29
+    surprise       0.56      0.40      0.47        25
+
+    accuracy                           0.59       199
+   macro avg       0.48      0.50      0.48       199
+weighted avg       0.54      0.59      0.56       199
+
+TOTAL ENFORCED ANALYSIS
+
+Happy: 552 elementi, 85 wrong emotion error
+Neutral: 850 elementi, 162 wrong emotion error
+Surprise: 374 elementi, 235 wrong emotion error
+Fear: 456 elementi, 277 wrong emotion error
+Disgust: 361 elementi, 338 wrong emotion error
+Sad: 456 elementi, 217 wrong emotion error
+Angry: 432 elementi, 211 wrong emotion error
+
+Totale: 3499 elementi, 1525 wrong emotion error 43,58%
+
+
