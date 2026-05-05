@@ -1,3 +1,5 @@
+## Project Overview
+
 This project analyzes human facial images to estimate stress levels based on expressed emotions. The images are sourced from the AffectNet and RAF-DB datasets and processed using the DeepFace framework for emotion recognition.
 
 An indicator is developed to classify stress into three levels (low, medium, and high) based on detected emotions. The approach is evaluated by assessing DeepFace’s ability to correctly recognize and distinguish facial expressions.
@@ -6,7 +8,7 @@ Results show that while DeepFace performs well on certain emotions, it struggles
 
 
 
-Project structure
+## Project structure
 
 codes/ → Contains the codes used for the analysis: 
   - reading.py → checks that the dataset to be analyzed is complete and well-structured
